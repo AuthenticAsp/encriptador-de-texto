@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.header {
+    margin: 2% 0 0 5%;
+}
+
+.header__logo {
+    display: flex;
+    gap: 80px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin: 3% 15%;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.main__seccion-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
