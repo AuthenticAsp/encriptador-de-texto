@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    margin: 2% 30% 0 5%;
+    margin: 2% 0 0 5%;
 }
 
 .header__logo {
@@ -167,4 +167,70 @@ body {
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
+}
+
+
+@media (max-width: 1200px) {
+    .header {
+        text-align: center;
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 5% 5%;
+        width: auto;
+    }
+
+    .main__seccion-principal {
+        width: 100%;
+    }
+
+    .main__seccion-principal__botones {
+        height: 30%;
+    }
+
+    .main__seccion-secundaria {
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+    }
+
+    .main__seccion-secundaria__sin-texto {
+        margin: 5% 0;
+        width: 90%;
+    }
+
+    .main__seccion-secundaria__sin-texto img {
+        display: none;
+    }
+
+    .main__seccion-secundaria__texto-respuesta {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .main__seccion-secundaria__boton-copiar {
+        margin-bottom: 5%;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        text-align: center;
+    }
+
+    .main__seccion-principal__botones {
+        flex-direction: column;
+        height: 30%;
+        margin-bottom: 5%;
+    }
+
+    .main__seccion-principal__botones__encriptar {
+        width: 100%;
+    }
+
+    .main__seccion-principal__botones__desencriptar {
+        width: 100%;
+    }
 }
