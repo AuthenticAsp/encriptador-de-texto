@@ -128,3 +128,14 @@ body {
     font-size: 1rem;
     width: 80%;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
