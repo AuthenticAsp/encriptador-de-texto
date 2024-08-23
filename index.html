@@ -15,22 +15,25 @@
     </header>
     <main class="main">
         <section class="main__seccion-principal">
-            <textarea class="main__seccion-principal__texto" id="" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea class="main__seccion-principal__texto" id="textoIngresado" placeholder="Ingrese el texto aquí"></textarea>
             <p class="main__seccion-principal__aviso"><img src="assets/img/signo.png" alt="">Solo letras minúsculas y sin acentos</p>
             <div class="main__seccion-principal__botones">
-                <button class="main__seccion-principal__botones__encriptar">Encriptar</button>
-                <button class="main__seccion-principal__botones__desencriptar">Desencriptar</button>
+                <button onclick="encriptarTexto()" class="main__seccion-principal__botones__encriptar">Encriptar</button>
+                <button onclick="desencriptarTexto()" class="main__seccion-principal__botones__desencriptar">Desencriptar</button>
             </div>
         </section>
         <div class="main__seccion-secundaria">
-            <img src="assets/img/Muñeco.png" alt="">
-            <p class="main__seccion-secundaria__texto1">Ningún mensaje fue encontrado</p>
-            <p class="main__seccion-secundaria__texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <div id="sinTexto" class="main__seccion-secundaria__sin-texto">
+                <img src="assets/img/Muñeco.png" alt="">
+                <p class="main__seccion-secundaria__texto1">Ningún mensaje fue encontrado</p>
+                <p class="main__seccion-secundaria__texto2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
         </div>
     </main>
 
     <footer class="footer">
         <p><i>2024 - Elaborado por <strong>Miguel Alejandro Pérez Nuñez</strong></i></p>
     </footer>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
